@@ -20,7 +20,7 @@ mongoose
     app.listen(process.env.PORT, function () {
       console.log("connected !!!");
       console.log(
-        `zomato api is running on http://localhost:${process.env.PORT}`
+        `zomato api is running on http://localhost:${process.env.PORT || 4000}`
       );
     });
   })
